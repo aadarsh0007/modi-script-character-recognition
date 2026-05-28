@@ -168,7 +168,7 @@ The application provides a secure and user-friendly authentication system where 
 - Responsive Interface
 
 <p align="center">
-  <img src="G:\MODI Script Recognition 2\screenshots\login-page.png" width="900" alt="Login Page">
+  <img src="screenshots/login-page.png" width="900" alt="Login Page">
 </p>
 
 ---
@@ -190,7 +190,7 @@ The dashboard gives an overview of the project including:
 - Flask Web Framework
 
 <p align="center">
-  <img src="G:\MODI Script Recognition 2\screenshots\dashboard.png" width="900" alt="Project Dashboard">
+  <img src="screenshots/dashboard.png" width="900" alt="Project Dashboard">
 </p>
 
 ---
@@ -207,7 +207,7 @@ Users can upload handwritten Modi script images and the system predicts the char
 - Fast Processing
 
 <p align="center">
-  <img src="G:\MODI Script Recognition 2\screenshots\prediction-page.png" width="900" alt="Prediction Page">
+  <img src="screenshots/prediction-page.png" width="900" alt="Prediction Page">
 </p>
 
 ---
