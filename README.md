@@ -155,17 +155,60 @@ python app.py
 
 # 🖼️ Application Screenshots
 
-## 🔐 Login Page
-(Add Screenshot Here)
+---
 
-## 📤 Image Upload
-(Add Screenshot Here)
+## 🔐 Login & Authentication Page
 
-## 🔍 Character Prediction
-(Add Screenshot Here)
+The application provides a secure and user-friendly authentication system where users can log in to access the Modi Script Character Recognition platform.
 
-## 📈 Model Accuracy Graphs
-(Add Screenshot Here)
+### Features:
+- Secure Login System
+- Modern UI Design
+- User Authentication
+- Responsive Interface
+
+<p align="center">
+  <img src="screenshots/login-page.png" width="900" alt="Login Page">
+</p>
+
+---
+
+## 🏠 Project Dashboard
+
+The dashboard gives an overview of the project including:
+- Domain Information
+- Dataset Source
+- Deep Learning Algorithm Used
+- Framework Details
+- Problem Statement
+- Proposed Solution
+
+### Dashboard Highlights:
+- AI & Machine Learning Domain
+- Kaggle Dataset Integration
+- CNN-Based Recognition
+- Flask Web Framework
+
+<p align="center">
+  <img src="screenshots/dashboard.png" width="900" alt="Project Dashboard">
+</p>
+
+---
+
+## 🔍 Character Prediction & Recognition
+
+Users can upload handwritten Modi script images and the system predicts the character using a trained CNN/VGG16 Deep Learning model.
+
+### Prediction Features:
+- Image Upload
+- Real-Time Prediction
+- Character Recognition
+- Confidence Score Display
+- Fast Processing
+
+<p align="center">
+  <img src="screenshots/prediction-page.png" width="900" alt="Prediction Page">
+</p>
 
 ---
 
