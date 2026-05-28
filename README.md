@@ -1,65 +1,200 @@
-# Modi Script Character Recognition Using Deep Learning
+<div align="center">
 
-## Overview
-This project is a Deep Learning based web application developed using Flask and CNN/VGG16 architecture for recognizing handwritten Modi script characters.
+# 🏛️ Modi Script Character Recognition Using Deep Learning
 
-The system allows users to:
-- Upload handwritten Modi script images
-- Capture real-time images
-- Recognize characters using Deep Learning
-- Convert characters into digital text
+### 🚀 AI-Powered OCR System for Ancient Modi Script Recognition
 
-## Features
-- CNN/VGG16 based character recognition
-- Flask web application
-- Image upload and real-time capture
-- User authentication system
-- Character prediction with confidence score
-- Historical script digitization
+<img src="https://img.shields.io/badge/Python-3.10-blue?style=for-the-badge&logo=python">
+<img src="https://img.shields.io/badge/Flask-Web%20Framework-black?style=for-the-badge&logo=flask">
+<img src="https://img.shields.io/badge/TensorFlow-Deep%20Learning-orange?style=for-the-badge&logo=tensorflow">
+<img src="https://img.shields.io/badge/OpenCV-Computer%20Vision-green?style=for-the-badge&logo=opencv">
+<img src="https://img.shields.io/badge/CNN-VGG16-red?style=for-the-badge">
 
-## Technologies Used
+</div>
+
+---
+
+# 📖 About The Project
+
+The **Modi Script Character Recognition System** is an AI-powered web application developed to recognize and digitize handwritten characters from the ancient **Modi Script**, historically used for writing Marathi language documents.
+
+This project combines:
+
+- 🧠 Deep Learning
+- 👁️ Computer Vision
+- 🌐 Flask Web Development
+- 📜 Historical Language Preservation
+
+to create an intelligent OCR-based recognition system capable of converting handwritten Modi characters into digital text.
+
+---
+
+# ✨ Features
+
+✅ Handwritten Modi Character Recognition  
+✅ CNN/VGG16 Deep Learning Model  
+✅ Flask-Based Interactive Web Application  
+✅ Real-Time Image Upload & Prediction  
+✅ Image Preprocessing using OpenCV  
+✅ User Authentication System  
+✅ Character Prediction with Confidence Score  
+✅ Historical Script Digitization  
+
+---
+
+# 🧠 Deep Learning Architecture
+
+The project uses:
+
+- **Convolutional Neural Networks (CNN)**
+- **VGG16 Architecture**
+- Feature Extraction Techniques
+- Image Normalization & Augmentation
+
+The model was trained on handwritten Modi script datasets collected from:
+- Kaggle
+- Historical Documents
+- Custom Handwritten Samples
+
+---
+
+# 📊 Model Performance
+
+| Metric | Accuracy |
+|--------|----------|
+| Training Accuracy | 95% |
+| Validation Accuracy | 90% |
+| Test Accuracy | 90% |
+
+---
+
+# 🛠️ Tech Stack
+
+## 👨‍💻 Programming & Frameworks
 - Python
 - Flask
-- TensorFlow / Keras
+- HTML5
+- CSS3
+- JavaScript
+
+## 🤖 AI / ML Libraries
+- TensorFlow
+- Keras
 - OpenCV
-- CNN / VGG16
-- HTML/CSS/JavaScript
-- SQLite/MySQL
+- NumPy
+- Pandas
+- Scikit-Learn
 
-## Dataset
-Dataset collected from:
-- Kaggle
-- Handwritten Modi Script Samples
-- Historical Documents
+## 🗄️ Database
+- SQLite / MySQL
 
-## Model Performance
-- Training Accuracy: 95%
-- Validation Accuracy: 90%
-- Test Accuracy: 90%
+---
 
-## Future Improvements
-- Real-time webcam recognition
-- Mobile application support
-- Multi-language OCR support
-- Better noisy image handling
+# 🏗️ Project Workflow
 
-## Installation
+```mermaid
+graph TD
+A[Image Upload] --> B[Preprocessing]
+B --> C[CNN/VGG16 Model]
+C --> D[Character Recognition]
+D --> E[Prediction Output]
+E --> F[Digital Text Result]
+```
+
+---
+
+# 📂 Project Structure
+
+```bash
+modi-script-character-recognition/
+│
+├── dataset/
+├── model/
+│   └── trained_model.h5
+│
+├── static/
+├── templates/
+│
+├── screenshots/
+├── app.py
+├── train_model.py
+├── requirements.txt
+├── README.md
+└── Project_Report.pdf
+```
+
+---
+
+# ⚙️ Installation & Setup
+
+## 1️⃣ Clone Repository
 
 ```bash
 git clone https://github.com/aadarsh0007/modi-script-character-recognition.git
+```
+
+## 2️⃣ Move Into Project Directory
+
+```bash
 cd modi-script-character-recognition
+```
+
+## 3️⃣ Install Dependencies
+
+```bash
 pip install -r requirements.txt
+```
+
+## 4️⃣ Run Application
+
+```bash
 python app.py
 ```
 
-## Screenshots
-(Add screenshots here)
+---
 
-## Contributors
-- Aadarsh Tapke
-- Omkar Kumar Sao
-- Paresh Patil
-- Aarya Gupta
+# 🖼️ Application Screenshots
 
-## License
-MIT License
+## 🔐 Login Page
+(Add Screenshot Here)
+
+## 📤 Image Upload
+(Add Screenshot Here)
+
+## 🔍 Character Prediction
+(Add Screenshot Here)
+
+## 📈 Model Accuracy Graphs
+(Add Screenshot Here)
+
+---
+
+# 🎯 Future Enhancements
+
+🚀 Real-Time Webcam Recognition  
+🚀 Mobile Application Development  
+🚀 Multi-Language OCR Support  
+🚀 Improved Noisy Image Handling  
+🚀 Cloud Deployment  
+
+---
+
+# 🌍 Real-World Applications
+
+- 📚 Educational Tools
+- 🏛️ Historical Document Preservation
+- 🔬 Research & Academia
+- 📖 Digital Libraries
+- 🧾 OCR Automation Systems
+
+---
+
+# ⭐ Support
+
+If you found this project useful, give it a ⭐ on GitHub!
+
+---
+
+# 📜 License
+
+This project is licensed under the MIT License.
